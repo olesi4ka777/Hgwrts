@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane fx:id="emailField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <RadioButton layoutX="57.0" layoutY="63.0" mnemonicParsing="false" text="magle" />
+      <RadioButton layoutX="167.0" layoutY="63.0" mnemonicParsing="false" text="wizard" />
+      <Button layoutX="171.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="43.0" text="send" />
+      <CheckBox layoutX="57.0" layoutY="127.0" mnemonicParsing="false" text="I agree*" />
+      <Text fill="#d96913" layoutX="103.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invite your friends to Hogwarts!" wrappingWidth="240.1367244720459">
+         <font>
+            <Font name="Franklin Gothic Medium" size="14.0" />
+         </font>
+      </Text>
+      <TextFlow layoutX="236.0" layoutY="61.0" prefHeight="26.0" prefWidth="165.0" style="-fx-background-color: #FFFF73; -fx-border-color: #FFFF88; -fx-border-radius: 5;" />
+      <TextField layoutX="234.0" layoutY="121.0" prefHeight="26.0" prefWidth="154.0" text="                             @" />
+   </children>
+</AnchorPane>
